@@ -47,7 +47,6 @@ schema = joblib.load(REQUIRED_FILES["schema"])
 eda = joblib.load(REQUIRED_FILES["eda"])
 
 st.title("KIVA Microfinance Loan Repayment Prediction")
-st.warning("This is the ORIGINAL prototype (before usability improvements). Kept for before/after comparison.")
 st.caption(
     "Five optimized machine-learning approaches trained with preprocessing + "
     "SMOTE inside cross-validation. Predictions are decision-support outputs, "
